@@ -1,0 +1,11 @@
+{
+  "showAllFields": false,
+  "fields": [
+    {
+      "key": "dummyCode",
+      "label": "Code"
+    }
+  ],
+  "readEndpoint": "/dummy/read",
+  "uniqueColId": "dummyId"
+}

@@ -1,0 +1,36 @@
+@import 'src/index.scss';
+
+.loan-stats-card {
+    width: 24% !important;
+    display: inline-block !important;
+
+    @media (max-width: 1520px) {
+        width: 32rem !important;
+    }
+}
+
+.loan-chart-container {
+    @media (max-width: 1450px) {
+        flex-wrap: wrap !important;
+    }
+}
+
+.loan-chart-1 {
+    width: 40.5% !important; //41.6
+
+    @media (max-width: 1450px) {
+        width: 49% !important;
+    }
+
+    @media (max-width: 1232px) {
+        width: 100% !important;
+    }
+}
+
+.loan-chart-2 {
+    width: 16.7% !important;
+
+    @media (max-width: 1450px) {
+       width: 100% !important;
+    }
+}

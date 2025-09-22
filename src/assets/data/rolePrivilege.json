@@ -1,0 +1,5636 @@
+{
+  "data": [
+    {
+      "roleId": 100,
+      "roleName": "SUPER_ADMIN",
+      "roleDescription": "SUPER_ADMIN",
+      "rolePrivilege": [
+        {
+          "privilegeId": 100,
+          "privilegeCode": "API_KEY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 101,
+          "privilegeCode": "ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 102,
+          "privilegeCode": "BENEFICIARY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 103,
+          "privilegeCode": "USER|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 104,
+          "privilegeCode": "ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 105,
+          "privilegeCode": "USER_ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 106,
+          "privilegeCode": "DISPUTE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 107,
+          "privilegeCode": "DOCUMENT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 108,
+          "privilegeCode": "DOCUMENT_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 109,
+          "privilegeCode": "DIRECTOR|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 110,
+          "privilegeCode": "INDUSTRY_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 111,
+          "privilegeCode": "INVITE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 112,
+          "privilegeCode": "TRANSACTION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 113,
+          "privilegeCode": "CALLBACK|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 114,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 115,
+          "privilegeCode": "USER_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 116,
+          "privilegeCode": "USER_OTP|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 117,
+          "privilegeCode": "LOGIN_HISTORY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 118,
+          "privilegeCode": "PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 119,
+          "privilegeCode": "ROLE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 120,
+          "privilegeCode": "ROLE_PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 121,
+          "privilegeCode": "MODULE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 122,
+          "privilegeCode": "AUDIT_LOG|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 123,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 124,
+          "privilegeCode": "API_KEY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 125,
+          "privilegeCode": "ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 126,
+          "privilegeCode": "BENEFICIARY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 127,
+          "privilegeCode": "USER|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 128,
+          "privilegeCode": "ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 129,
+          "privilegeCode": "USER_ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 130,
+          "privilegeCode": "DISPUTE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 131,
+          "privilegeCode": "DOCUMENT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 132,
+          "privilegeCode": "DOCUMENT_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 133,
+          "privilegeCode": "DIRECTOR|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 134,
+          "privilegeCode": "INDUSTRY_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 135,
+          "privilegeCode": "INVITE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 136,
+          "privilegeCode": "TRANSACTION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 137,
+          "privilegeCode": "CALLBACK|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 138,
+          "privilegeCode": "VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 139,
+          "privilegeCode": "USER_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 140,
+          "privilegeCode": "USER_OTP|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 141,
+          "privilegeCode": "LOGIN_HISTORY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 142,
+          "privilegeCode": "PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 143,
+          "privilegeCode": "ROLE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 144,
+          "privilegeCode": "ROLE_PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 145,
+          "privilegeCode": "MODULE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 146,
+          "privilegeCode": "AUDIT_LOG|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 147,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 148,
+          "privilegeCode": "API_KEY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 149,
+          "privilegeCode": "ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 150,
+          "privilegeCode": "BENEFICIARY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 151,
+          "privilegeCode": "USER|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 152,
+          "privilegeCode": "ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 153,
+          "privilegeCode": "USER_ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 154,
+          "privilegeCode": "DISPUTE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 155,
+          "privilegeCode": "DOCUMENT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 156,
+          "privilegeCode": "DOCUMENT_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 157,
+          "privilegeCode": "DIRECTOR|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 158,
+          "privilegeCode": "INDUSTRY_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 159,
+          "privilegeCode": "INVITE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 160,
+          "privilegeCode": "TRANSACTION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 161,
+          "privilegeCode": "CALLBACK|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 162,
+          "privilegeCode": "VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 163,
+          "privilegeCode": "USER_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 164,
+          "privilegeCode": "USER_OTP|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 165,
+          "privilegeCode": "LOGIN_HISTORY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 166,
+          "privilegeCode": "PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 167,
+          "privilegeCode": "ROLE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 168,
+          "privilegeCode": "ROLE_PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 169,
+          "privilegeCode": "MODULE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 170,
+          "privilegeCode": "AUDIT_LOG|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 171,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 172,
+          "privilegeCode": "API_KEY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 173,
+          "privilegeCode": "ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 174,
+          "privilegeCode": "BENEFICIARY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 175,
+          "privilegeCode": "USER|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 176,
+          "privilegeCode": "ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 177,
+          "privilegeCode": "USER_ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 178,
+          "privilegeCode": "DISPUTE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 179,
+          "privilegeCode": "DOCUMENT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 180,
+          "privilegeCode": "DOCUMENT_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 181,
+          "privilegeCode": "DIRECTOR|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 182,
+          "privilegeCode": "INDUSTRY_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 183,
+          "privilegeCode": "INVITE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 184,
+          "privilegeCode": "TRANSACTION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 185,
+          "privilegeCode": "CALLBACK|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 186,
+          "privilegeCode": "VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 187,
+          "privilegeCode": "USER_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 188,
+          "privilegeCode": "USER_OTP|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 189,
+          "privilegeCode": "LOGIN_HISTORY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 190,
+          "privilegeCode": "PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 191,
+          "privilegeCode": "ROLE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 192,
+          "privilegeCode": "ROLE_PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 193,
+          "privilegeCode": "MODULE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 194,
+          "privilegeCode": "AUDIT_LOG|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 195,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 196,
+          "privilegeCode": "API_KEY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 197,
+          "privilegeCode": "ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 198,
+          "privilegeCode": "BENEFICIARY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 199,
+          "privilegeCode": "USER|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 200,
+          "privilegeCode": "ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 201,
+          "privilegeCode": "USER_ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 202,
+          "privilegeCode": "DISPUTE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 203,
+          "privilegeCode": "DOCUMENT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 204,
+          "privilegeCode": "DOCUMENT_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 205,
+          "privilegeCode": "DIRECTOR|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 206,
+          "privilegeCode": "INDUSTRY_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 207,
+          "privilegeCode": "INVITE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 208,
+          "privilegeCode": "TRANSACTION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 209,
+          "privilegeCode": "CALLBACK|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 210,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 211,
+          "privilegeCode": "USER_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 212,
+          "privilegeCode": "USER_OTP|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 213,
+          "privilegeCode": "LOGIN_HISTORY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 214,
+          "privilegeCode": "PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 215,
+          "privilegeCode": "ROLE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 216,
+          "privilegeCode": "ROLE_PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 217,
+          "privilegeCode": "MODULE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 218,
+          "privilegeCode": "AUDIT_LOG|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 219,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 220,
+          "privilegeCode": "BUSINESS_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 221,
+          "privilegeCode": "BUSINESS_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 222,
+          "privilegeCode": "BUSINESS_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 223,
+          "privilegeCode": "BUSINESS_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 224,
+          "privilegeCode": "BUSINESS_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 225,
+          "privilegeCode": "DIRECTOR_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CREATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 226,
+          "privilegeCode": "DIRECTOR_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|UPDATE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 227,
+          "privilegeCode": "DIRECTOR_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|DELETE",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 228,
+          "privilegeCode": "DIRECTOR_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|READ",
+          "rolePrivilegeStatus": "ACTIVE"
+        },
+        {
+          "privilegeId": 229,
+          "privilegeCode": "DIRECTOR_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CHECKER",
+          "rolePrivilegeStatus": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "roleId": 101,
+      "roleName": "ADMIN",
+      "roleDescription": "ADMIN",
+      "roleDeniedPrivilege": [
+        {
+          "privilegeId": 100,
+          "privilegeCode": "API_KEY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CREATE"
+        },
+        {
+          "privilegeId": 101,
+          "privilegeCode": "ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 102,
+          "privilegeCode": "BENEFICIARY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CREATE"
+        },
+        {
+          "privilegeId": 103,
+          "privilegeCode": "USER|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CREATE"
+        },
+        {
+          "privilegeId": 104,
+          "privilegeCode": "ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 105,
+          "privilegeCode": "USER_ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 106,
+          "privilegeCode": "DISPUTE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CREATE"
+        },
+        {
+          "privilegeId": 107,
+          "privilegeCode": "DOCUMENT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CREATE"
+        },
+        {
+          "privilegeId": 108,
+          "privilegeCode": "DOCUMENT_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 109,
+          "privilegeCode": "DIRECTOR|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CREATE"
+        },
+        {
+          "privilegeId": 110,
+          "privilegeCode": "INDUSTRY_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 111,
+          "privilegeCode": "INVITE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CREATE"
+        },
+        {
+          "privilegeId": 112,
+          "privilegeCode": "TRANSACTION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CREATE"
+        },
+        {
+          "privilegeId": 113,
+          "privilegeCode": "CALLBACK|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CREATE"
+        },
+        {
+          "privilegeId": 114,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 115,
+          "privilegeCode": "USER_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 116,
+          "privilegeCode": "USER_OTP|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CREATE"
+        },
+        {
+          "privilegeId": 117,
+          "privilegeCode": "LOGIN_HISTORY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CREATE"
+        },
+        {
+          "privilegeId": 118,
+          "privilegeCode": "PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 119,
+          "privilegeCode": "ROLE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CREATE"
+        },
+        {
+          "privilegeId": 120,
+          "privilegeCode": "ROLE_PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 121,
+          "privilegeCode": "MODULE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CREATE"
+        },
+        {
+          "privilegeId": 122,
+          "privilegeCode": "AUDIT_LOG|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CREATE"
+        },
+        {
+          "privilegeId": 123,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 124,
+          "privilegeCode": "API_KEY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|UPDATE"
+        },
+        {
+          "privilegeId": 125,
+          "privilegeCode": "ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 126,
+          "privilegeCode": "BENEFICIARY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|UPDATE"
+        },
+        {
+          "privilegeId": 127,
+          "privilegeCode": "USER|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|UPDATE"
+        },
+        {
+          "privilegeId": 128,
+          "privilegeCode": "ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 129,
+          "privilegeCode": "USER_ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 130,
+          "privilegeCode": "DISPUTE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|UPDATE"
+        },
+        {
+          "privilegeId": 131,
+          "privilegeCode": "DOCUMENT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|UPDATE"
+        },
+        {
+          "privilegeId": 132,
+          "privilegeCode": "DOCUMENT_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 133,
+          "privilegeCode": "DIRECTOR|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|UPDATE"
+        },
+        {
+          "privilegeId": 134,
+          "privilegeCode": "INDUSTRY_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 135,
+          "privilegeCode": "INVITE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|UPDATE"
+        },
+        {
+          "privilegeId": 136,
+          "privilegeCode": "TRANSACTION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|UPDATE"
+        },
+        {
+          "privilegeId": 137,
+          "privilegeCode": "CALLBACK|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|UPDATE"
+        },
+        {
+          "privilegeId": 138,
+          "privilegeCode": "VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 139,
+          "privilegeCode": "USER_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 140,
+          "privilegeCode": "USER_OTP|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|UPDATE"
+        },
+        {
+          "privilegeId": 141,
+          "privilegeCode": "LOGIN_HISTORY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|UPDATE"
+        },
+        {
+          "privilegeId": 142,
+          "privilegeCode": "PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 143,
+          "privilegeCode": "ROLE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|UPDATE"
+        },
+        {
+          "privilegeId": 144,
+          "privilegeCode": "ROLE_PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 145,
+          "privilegeCode": "MODULE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|UPDATE"
+        },
+        {
+          "privilegeId": 146,
+          "privilegeCode": "AUDIT_LOG|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|UPDATE"
+        },
+        {
+          "privilegeId": 147,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 148,
+          "privilegeCode": "API_KEY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|DELETE"
+        },
+        {
+          "privilegeId": 149,
+          "privilegeCode": "ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 150,
+          "privilegeCode": "BENEFICIARY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|DELETE"
+        },
+        {
+          "privilegeId": 151,
+          "privilegeCode": "USER|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|DELETE"
+        },
+        {
+          "privilegeId": 152,
+          "privilegeCode": "ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 153,
+          "privilegeCode": "USER_ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 154,
+          "privilegeCode": "DISPUTE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|DELETE"
+        },
+        {
+          "privilegeId": 155,
+          "privilegeCode": "DOCUMENT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|DELETE"
+        },
+        {
+          "privilegeId": 156,
+          "privilegeCode": "DOCUMENT_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 157,
+          "privilegeCode": "DIRECTOR|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|DELETE"
+        },
+        {
+          "privilegeId": 158,
+          "privilegeCode": "INDUSTRY_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 159,
+          "privilegeCode": "INVITE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|DELETE"
+        },
+        {
+          "privilegeId": 160,
+          "privilegeCode": "TRANSACTION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|DELETE"
+        },
+        {
+          "privilegeId": 161,
+          "privilegeCode": "CALLBACK|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|DELETE"
+        },
+        {
+          "privilegeId": 162,
+          "privilegeCode": "VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 163,
+          "privilegeCode": "USER_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 164,
+          "privilegeCode": "USER_OTP|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|DELETE"
+        },
+        {
+          "privilegeId": 165,
+          "privilegeCode": "LOGIN_HISTORY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|DELETE"
+        },
+        {
+          "privilegeId": 166,
+          "privilegeCode": "PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 167,
+          "privilegeCode": "ROLE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|DELETE"
+        },
+        {
+          "privilegeId": 168,
+          "privilegeCode": "ROLE_PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 169,
+          "privilegeCode": "MODULE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|DELETE"
+        },
+        {
+          "privilegeId": 170,
+          "privilegeCode": "AUDIT_LOG|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|DELETE"
+        },
+        {
+          "privilegeId": 171,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 172,
+          "privilegeCode": "API_KEY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|READ"
+        },
+        {
+          "privilegeId": 173,
+          "privilegeCode": "ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 174,
+          "privilegeCode": "BENEFICIARY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|READ"
+        },
+        {
+          "privilegeId": 175,
+          "privilegeCode": "USER|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|READ"
+        },
+        {
+          "privilegeId": 176,
+          "privilegeCode": "ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 177,
+          "privilegeCode": "USER_ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 178,
+          "privilegeCode": "DISPUTE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|READ"
+        },
+        {
+          "privilegeId": 179,
+          "privilegeCode": "DOCUMENT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|READ"
+        },
+        {
+          "privilegeId": 180,
+          "privilegeCode": "DOCUMENT_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|READ"
+        },
+        {
+          "privilegeId": 181,
+          "privilegeCode": "DIRECTOR|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|READ"
+        },
+        {
+          "privilegeId": 182,
+          "privilegeCode": "INDUSTRY_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|READ"
+        },
+        {
+          "privilegeId": 183,
+          "privilegeCode": "INVITE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|READ"
+        },
+        {
+          "privilegeId": 184,
+          "privilegeCode": "TRANSACTION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|READ"
+        },
+        {
+          "privilegeId": 185,
+          "privilegeCode": "CALLBACK|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|READ"
+        },
+        {
+          "privilegeId": 186,
+          "privilegeCode": "VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 187,
+          "privilegeCode": "USER_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 188,
+          "privilegeCode": "USER_OTP|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|READ"
+        },
+        {
+          "privilegeId": 189,
+          "privilegeCode": "LOGIN_HISTORY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|READ"
+        },
+        {
+          "privilegeId": 190,
+          "privilegeCode": "PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 191,
+          "privilegeCode": "ROLE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|READ"
+        },
+        {
+          "privilegeId": 192,
+          "privilegeCode": "ROLE_PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 193,
+          "privilegeCode": "MODULE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|READ"
+        },
+        {
+          "privilegeId": 194,
+          "privilegeCode": "AUDIT_LOG|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|READ"
+        },
+        {
+          "privilegeId": 195,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 196,
+          "privilegeCode": "API_KEY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CHECKER"
+        },
+        {
+          "privilegeId": 197,
+          "privilegeCode": "ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 198,
+          "privilegeCode": "BENEFICIARY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CHECKER"
+        },
+        {
+          "privilegeId": 199,
+          "privilegeCode": "USER|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CHECKER"
+        },
+        {
+          "privilegeId": 200,
+          "privilegeCode": "ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 201,
+          "privilegeCode": "USER_ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 202,
+          "privilegeCode": "DISPUTE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CHECKER"
+        },
+        {
+          "privilegeId": 203,
+          "privilegeCode": "DOCUMENT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CHECKER"
+        },
+        {
+          "privilegeId": 204,
+          "privilegeCode": "DOCUMENT_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 205,
+          "privilegeCode": "DIRECTOR|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CHECKER"
+        },
+        {
+          "privilegeId": 206,
+          "privilegeCode": "INDUSTRY_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 207,
+          "privilegeCode": "INVITE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CHECKER"
+        },
+        {
+          "privilegeId": 208,
+          "privilegeCode": "TRANSACTION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CHECKER"
+        },
+        {
+          "privilegeId": 209,
+          "privilegeCode": "CALLBACK|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CHECKER"
+        },
+        {
+          "privilegeId": 210,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 211,
+          "privilegeCode": "USER_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 212,
+          "privilegeCode": "USER_OTP|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CHECKER"
+        },
+        {
+          "privilegeId": 213,
+          "privilegeCode": "LOGIN_HISTORY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CHECKER"
+        },
+        {
+          "privilegeId": 214,
+          "privilegeCode": "PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 215,
+          "privilegeCode": "ROLE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CHECKER"
+        },
+        {
+          "privilegeId": 216,
+          "privilegeCode": "ROLE_PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 217,
+          "privilegeCode": "MODULE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CHECKER"
+        },
+        {
+          "privilegeId": 218,
+          "privilegeCode": "AUDIT_LOG|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CHECKER"
+        },
+        {
+          "privilegeId": 219,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 220,
+          "privilegeCode": "BUSINESS_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 221,
+          "privilegeCode": "BUSINESS_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 222,
+          "privilegeCode": "BUSINESS_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 223,
+          "privilegeCode": "BUSINESS_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 224,
+          "privilegeCode": "BUSINESS_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 225,
+          "privilegeCode": "DIRECTOR_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 226,
+          "privilegeCode": "DIRECTOR_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 227,
+          "privilegeCode": "DIRECTOR_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 228,
+          "privilegeCode": "DIRECTOR_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 229,
+          "privilegeCode": "DIRECTOR_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CHECKER"
+        }
+      ]
+    },
+    {
+      "roleId": 102,
+      "roleName": "OPERATIONS",
+      "roleDescription": "OPERATIONS",
+      "roleDeniedPrivilege": [
+        {
+          "privilegeId": 100,
+          "privilegeCode": "API_KEY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CREATE"
+        },
+        {
+          "privilegeId": 101,
+          "privilegeCode": "ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 102,
+          "privilegeCode": "BENEFICIARY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CREATE"
+        },
+        {
+          "privilegeId": 103,
+          "privilegeCode": "USER|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CREATE"
+        },
+        {
+          "privilegeId": 104,
+          "privilegeCode": "ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 105,
+          "privilegeCode": "USER_ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 106,
+          "privilegeCode": "DISPUTE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CREATE"
+        },
+        {
+          "privilegeId": 107,
+          "privilegeCode": "DOCUMENT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CREATE"
+        },
+        {
+          "privilegeId": 108,
+          "privilegeCode": "DOCUMENT_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 109,
+          "privilegeCode": "DIRECTOR|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CREATE"
+        },
+        {
+          "privilegeId": 110,
+          "privilegeCode": "INDUSTRY_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 111,
+          "privilegeCode": "INVITE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CREATE"
+        },
+        {
+          "privilegeId": 112,
+          "privilegeCode": "TRANSACTION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CREATE"
+        },
+        {
+          "privilegeId": 113,
+          "privilegeCode": "CALLBACK|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CREATE"
+        },
+        {
+          "privilegeId": 114,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 115,
+          "privilegeCode": "USER_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 116,
+          "privilegeCode": "USER_OTP|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CREATE"
+        },
+        {
+          "privilegeId": 117,
+          "privilegeCode": "LOGIN_HISTORY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CREATE"
+        },
+        {
+          "privilegeId": 118,
+          "privilegeCode": "PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 119,
+          "privilegeCode": "ROLE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CREATE"
+        },
+        {
+          "privilegeId": 120,
+          "privilegeCode": "ROLE_PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 121,
+          "privilegeCode": "MODULE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CREATE"
+        },
+        {
+          "privilegeId": 122,
+          "privilegeCode": "AUDIT_LOG|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CREATE"
+        },
+        {
+          "privilegeId": 123,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 124,
+          "privilegeCode": "API_KEY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|UPDATE"
+        },
+        {
+          "privilegeId": 125,
+          "privilegeCode": "ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 126,
+          "privilegeCode": "BENEFICIARY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|UPDATE"
+        },
+        {
+          "privilegeId": 127,
+          "privilegeCode": "USER|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|UPDATE"
+        },
+        {
+          "privilegeId": 128,
+          "privilegeCode": "ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 129,
+          "privilegeCode": "USER_ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 130,
+          "privilegeCode": "DISPUTE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|UPDATE"
+        },
+        {
+          "privilegeId": 131,
+          "privilegeCode": "DOCUMENT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|UPDATE"
+        },
+        {
+          "privilegeId": 132,
+          "privilegeCode": "DOCUMENT_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 133,
+          "privilegeCode": "DIRECTOR|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|UPDATE"
+        },
+        {
+          "privilegeId": 134,
+          "privilegeCode": "INDUSTRY_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 135,
+          "privilegeCode": "INVITE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|UPDATE"
+        },
+        {
+          "privilegeId": 136,
+          "privilegeCode": "TRANSACTION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|UPDATE"
+        },
+        {
+          "privilegeId": 137,
+          "privilegeCode": "CALLBACK|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|UPDATE"
+        },
+        {
+          "privilegeId": 138,
+          "privilegeCode": "VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 139,
+          "privilegeCode": "USER_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 140,
+          "privilegeCode": "USER_OTP|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|UPDATE"
+        },
+        {
+          "privilegeId": 141,
+          "privilegeCode": "LOGIN_HISTORY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|UPDATE"
+        },
+        {
+          "privilegeId": 142,
+          "privilegeCode": "PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 143,
+          "privilegeCode": "ROLE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|UPDATE"
+        },
+        {
+          "privilegeId": 144,
+          "privilegeCode": "ROLE_PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 145,
+          "privilegeCode": "MODULE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|UPDATE"
+        },
+        {
+          "privilegeId": 146,
+          "privilegeCode": "AUDIT_LOG|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|UPDATE"
+        },
+        {
+          "privilegeId": 147,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 148,
+          "privilegeCode": "API_KEY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|DELETE"
+        },
+        {
+          "privilegeId": 149,
+          "privilegeCode": "ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 150,
+          "privilegeCode": "BENEFICIARY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|DELETE"
+        },
+        {
+          "privilegeId": 151,
+          "privilegeCode": "USER|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|DELETE"
+        },
+        {
+          "privilegeId": 152,
+          "privilegeCode": "ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 153,
+          "privilegeCode": "USER_ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 154,
+          "privilegeCode": "DISPUTE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|DELETE"
+        },
+        {
+          "privilegeId": 155,
+          "privilegeCode": "DOCUMENT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|DELETE"
+        },
+        {
+          "privilegeId": 156,
+          "privilegeCode": "DOCUMENT_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 157,
+          "privilegeCode": "DIRECTOR|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|DELETE"
+        },
+        {
+          "privilegeId": 158,
+          "privilegeCode": "INDUSTRY_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 159,
+          "privilegeCode": "INVITE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|DELETE"
+        },
+        {
+          "privilegeId": 160,
+          "privilegeCode": "TRANSACTION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|DELETE"
+        },
+        {
+          "privilegeId": 161,
+          "privilegeCode": "CALLBACK|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|DELETE"
+        },
+        {
+          "privilegeId": 162,
+          "privilegeCode": "VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 163,
+          "privilegeCode": "USER_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 164,
+          "privilegeCode": "USER_OTP|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|DELETE"
+        },
+        {
+          "privilegeId": 165,
+          "privilegeCode": "LOGIN_HISTORY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|DELETE"
+        },
+        {
+          "privilegeId": 166,
+          "privilegeCode": "PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 167,
+          "privilegeCode": "ROLE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|DELETE"
+        },
+        {
+          "privilegeId": 168,
+          "privilegeCode": "ROLE_PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 169,
+          "privilegeCode": "MODULE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|DELETE"
+        },
+        {
+          "privilegeId": 170,
+          "privilegeCode": "AUDIT_LOG|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|DELETE"
+        },
+        {
+          "privilegeId": 171,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 172,
+          "privilegeCode": "API_KEY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|READ"
+        },
+        {
+          "privilegeId": 173,
+          "privilegeCode": "ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 174,
+          "privilegeCode": "BENEFICIARY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|READ"
+        },
+        {
+          "privilegeId": 175,
+          "privilegeCode": "USER|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|READ"
+        },
+        {
+          "privilegeId": 176,
+          "privilegeCode": "ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 177,
+          "privilegeCode": "USER_ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 178,
+          "privilegeCode": "DISPUTE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|READ"
+        },
+        {
+          "privilegeId": 179,
+          "privilegeCode": "DOCUMENT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|READ"
+        },
+        {
+          "privilegeId": 180,
+          "privilegeCode": "DOCUMENT_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|READ"
+        },
+        {
+          "privilegeId": 181,
+          "privilegeCode": "DIRECTOR|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|READ"
+        },
+        {
+          "privilegeId": 182,
+          "privilegeCode": "INDUSTRY_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|READ"
+        },
+        {
+          "privilegeId": 183,
+          "privilegeCode": "INVITE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|READ"
+        },
+        {
+          "privilegeId": 184,
+          "privilegeCode": "TRANSACTION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|READ"
+        },
+        {
+          "privilegeId": 185,
+          "privilegeCode": "CALLBACK|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|READ"
+        },
+        {
+          "privilegeId": 186,
+          "privilegeCode": "VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 187,
+          "privilegeCode": "USER_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 188,
+          "privilegeCode": "USER_OTP|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|READ"
+        },
+        {
+          "privilegeId": 189,
+          "privilegeCode": "LOGIN_HISTORY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|READ"
+        },
+        {
+          "privilegeId": 190,
+          "privilegeCode": "PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 191,
+          "privilegeCode": "ROLE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|READ"
+        },
+        {
+          "privilegeId": 192,
+          "privilegeCode": "ROLE_PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 193,
+          "privilegeCode": "MODULE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|READ"
+        },
+        {
+          "privilegeId": 194,
+          "privilegeCode": "AUDIT_LOG|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|READ"
+        },
+        {
+          "privilegeId": 195,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 196,
+          "privilegeCode": "API_KEY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CHECKER"
+        },
+        {
+          "privilegeId": 197,
+          "privilegeCode": "ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 198,
+          "privilegeCode": "BENEFICIARY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CHECKER"
+        },
+        {
+          "privilegeId": 199,
+          "privilegeCode": "USER|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CHECKER"
+        },
+        {
+          "privilegeId": 200,
+          "privilegeCode": "ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 201,
+          "privilegeCode": "USER_ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 202,
+          "privilegeCode": "DISPUTE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CHECKER"
+        },
+        {
+          "privilegeId": 203,
+          "privilegeCode": "DOCUMENT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CHECKER"
+        },
+        {
+          "privilegeId": 204,
+          "privilegeCode": "DOCUMENT_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 205,
+          "privilegeCode": "DIRECTOR|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CHECKER"
+        },
+        {
+          "privilegeId": 206,
+          "privilegeCode": "INDUSTRY_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 207,
+          "privilegeCode": "INVITE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CHECKER"
+        },
+        {
+          "privilegeId": 208,
+          "privilegeCode": "TRANSACTION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CHECKER"
+        },
+        {
+          "privilegeId": 209,
+          "privilegeCode": "CALLBACK|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CHECKER"
+        },
+        {
+          "privilegeId": 210,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 211,
+          "privilegeCode": "USER_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 212,
+          "privilegeCode": "USER_OTP|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CHECKER"
+        },
+        {
+          "privilegeId": 213,
+          "privilegeCode": "LOGIN_HISTORY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CHECKER"
+        },
+        {
+          "privilegeId": 214,
+          "privilegeCode": "PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 215,
+          "privilegeCode": "ROLE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CHECKER"
+        },
+        {
+          "privilegeId": 216,
+          "privilegeCode": "ROLE_PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 217,
+          "privilegeCode": "MODULE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CHECKER"
+        },
+        {
+          "privilegeId": 218,
+          "privilegeCode": "AUDIT_LOG|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CHECKER"
+        },
+        {
+          "privilegeId": 219,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 220,
+          "privilegeCode": "BUSINESS_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 221,
+          "privilegeCode": "BUSINESS_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 222,
+          "privilegeCode": "BUSINESS_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 223,
+          "privilegeCode": "BUSINESS_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 224,
+          "privilegeCode": "BUSINESS_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 225,
+          "privilegeCode": "DIRECTOR_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 226,
+          "privilegeCode": "DIRECTOR_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 227,
+          "privilegeCode": "DIRECTOR_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 228,
+          "privilegeCode": "DIRECTOR_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 229,
+          "privilegeCode": "DIRECTOR_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CHECKER"
+        }
+      ]
+    },
+    {
+      "roleId": 103,
+      "roleName": "DEVELOPER_SUPPORT",
+      "roleDescription": "DEVELOPER_SUPPORT",
+      "roleDeniedPrivilege": [
+        {
+          "privilegeId": 100,
+          "privilegeCode": "API_KEY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CREATE"
+        },
+        {
+          "privilegeId": 101,
+          "privilegeCode": "ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 102,
+          "privilegeCode": "BENEFICIARY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CREATE"
+        },
+        {
+          "privilegeId": 103,
+          "privilegeCode": "USER|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CREATE"
+        },
+        {
+          "privilegeId": 104,
+          "privilegeCode": "ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 105,
+          "privilegeCode": "USER_ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 106,
+          "privilegeCode": "DISPUTE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CREATE"
+        },
+        {
+          "privilegeId": 107,
+          "privilegeCode": "DOCUMENT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CREATE"
+        },
+        {
+          "privilegeId": 108,
+          "privilegeCode": "DOCUMENT_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 109,
+          "privilegeCode": "DIRECTOR|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CREATE"
+        },
+        {
+          "privilegeId": 110,
+          "privilegeCode": "INDUSTRY_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 111,
+          "privilegeCode": "INVITE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CREATE"
+        },
+        {
+          "privilegeId": 112,
+          "privilegeCode": "TRANSACTION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CREATE"
+        },
+        {
+          "privilegeId": 113,
+          "privilegeCode": "CALLBACK|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CREATE"
+        },
+        {
+          "privilegeId": 114,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 115,
+          "privilegeCode": "USER_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 116,
+          "privilegeCode": "USER_OTP|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CREATE"
+        },
+        {
+          "privilegeId": 117,
+          "privilegeCode": "LOGIN_HISTORY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CREATE"
+        },
+        {
+          "privilegeId": 118,
+          "privilegeCode": "PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 119,
+          "privilegeCode": "ROLE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CREATE"
+        },
+        {
+          "privilegeId": 120,
+          "privilegeCode": "ROLE_PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 121,
+          "privilegeCode": "MODULE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CREATE"
+        },
+        {
+          "privilegeId": 122,
+          "privilegeCode": "AUDIT_LOG|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CREATE"
+        },
+        {
+          "privilegeId": 123,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 124,
+          "privilegeCode": "API_KEY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|UPDATE"
+        },
+        {
+          "privilegeId": 125,
+          "privilegeCode": "ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 126,
+          "privilegeCode": "BENEFICIARY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|UPDATE"
+        },
+        {
+          "privilegeId": 127,
+          "privilegeCode": "USER|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|UPDATE"
+        },
+        {
+          "privilegeId": 128,
+          "privilegeCode": "ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 129,
+          "privilegeCode": "USER_ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 130,
+          "privilegeCode": "DISPUTE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|UPDATE"
+        },
+        {
+          "privilegeId": 131,
+          "privilegeCode": "DOCUMENT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|UPDATE"
+        },
+        {
+          "privilegeId": 132,
+          "privilegeCode": "DOCUMENT_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 133,
+          "privilegeCode": "DIRECTOR|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|UPDATE"
+        },
+        {
+          "privilegeId": 134,
+          "privilegeCode": "INDUSTRY_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 135,
+          "privilegeCode": "INVITE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|UPDATE"
+        },
+        {
+          "privilegeId": 136,
+          "privilegeCode": "TRANSACTION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|UPDATE"
+        },
+        {
+          "privilegeId": 137,
+          "privilegeCode": "CALLBACK|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|UPDATE"
+        },
+        {
+          "privilegeId": 138,
+          "privilegeCode": "VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 139,
+          "privilegeCode": "USER_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 140,
+          "privilegeCode": "USER_OTP|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|UPDATE"
+        },
+        {
+          "privilegeId": 141,
+          "privilegeCode": "LOGIN_HISTORY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|UPDATE"
+        },
+        {
+          "privilegeId": 142,
+          "privilegeCode": "PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 143,
+          "privilegeCode": "ROLE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|UPDATE"
+        },
+        {
+          "privilegeId": 144,
+          "privilegeCode": "ROLE_PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 145,
+          "privilegeCode": "MODULE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|UPDATE"
+        },
+        {
+          "privilegeId": 146,
+          "privilegeCode": "AUDIT_LOG|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|UPDATE"
+        },
+        {
+          "privilegeId": 147,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 148,
+          "privilegeCode": "API_KEY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|DELETE"
+        },
+        {
+          "privilegeId": 149,
+          "privilegeCode": "ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 150,
+          "privilegeCode": "BENEFICIARY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|DELETE"
+        },
+        {
+          "privilegeId": 151,
+          "privilegeCode": "USER|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|DELETE"
+        },
+        {
+          "privilegeId": 152,
+          "privilegeCode": "ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 153,
+          "privilegeCode": "USER_ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 154,
+          "privilegeCode": "DISPUTE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|DELETE"
+        },
+        {
+          "privilegeId": 155,
+          "privilegeCode": "DOCUMENT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|DELETE"
+        },
+        {
+          "privilegeId": 156,
+          "privilegeCode": "DOCUMENT_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 157,
+          "privilegeCode": "DIRECTOR|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|DELETE"
+        },
+        {
+          "privilegeId": 158,
+          "privilegeCode": "INDUSTRY_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 159,
+          "privilegeCode": "INVITE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|DELETE"
+        },
+        {
+          "privilegeId": 160,
+          "privilegeCode": "TRANSACTION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|DELETE"
+        },
+        {
+          "privilegeId": 161,
+          "privilegeCode": "CALLBACK|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|DELETE"
+        },
+        {
+          "privilegeId": 162,
+          "privilegeCode": "VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 163,
+          "privilegeCode": "USER_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 164,
+          "privilegeCode": "USER_OTP|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|DELETE"
+        },
+        {
+          "privilegeId": 165,
+          "privilegeCode": "LOGIN_HISTORY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|DELETE"
+        },
+        {
+          "privilegeId": 166,
+          "privilegeCode": "PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 167,
+          "privilegeCode": "ROLE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|DELETE"
+        },
+        {
+          "privilegeId": 168,
+          "privilegeCode": "ROLE_PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 169,
+          "privilegeCode": "MODULE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|DELETE"
+        },
+        {
+          "privilegeId": 170,
+          "privilegeCode": "AUDIT_LOG|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|DELETE"
+        },
+        {
+          "privilegeId": 171,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 172,
+          "privilegeCode": "API_KEY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|READ"
+        },
+        {
+          "privilegeId": 173,
+          "privilegeCode": "ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 174,
+          "privilegeCode": "BENEFICIARY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|READ"
+        },
+        {
+          "privilegeId": 175,
+          "privilegeCode": "USER|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|READ"
+        },
+        {
+          "privilegeId": 176,
+          "privilegeCode": "ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 177,
+          "privilegeCode": "USER_ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 178,
+          "privilegeCode": "DISPUTE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|READ"
+        },
+        {
+          "privilegeId": 179,
+          "privilegeCode": "DOCUMENT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|READ"
+        },
+        {
+          "privilegeId": 180,
+          "privilegeCode": "DOCUMENT_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|READ"
+        },
+        {
+          "privilegeId": 181,
+          "privilegeCode": "DIRECTOR|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|READ"
+        },
+        {
+          "privilegeId": 182,
+          "privilegeCode": "INDUSTRY_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|READ"
+        },
+        {
+          "privilegeId": 183,
+          "privilegeCode": "INVITE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|READ"
+        },
+        {
+          "privilegeId": 184,
+          "privilegeCode": "TRANSACTION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|READ"
+        },
+        {
+          "privilegeId": 185,
+          "privilegeCode": "CALLBACK|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|READ"
+        },
+        {
+          "privilegeId": 186,
+          "privilegeCode": "VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 187,
+          "privilegeCode": "USER_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 188,
+          "privilegeCode": "USER_OTP|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|READ"
+        },
+        {
+          "privilegeId": 189,
+          "privilegeCode": "LOGIN_HISTORY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|READ"
+        },
+        {
+          "privilegeId": 190,
+          "privilegeCode": "PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 191,
+          "privilegeCode": "ROLE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|READ"
+        },
+        {
+          "privilegeId": 192,
+          "privilegeCode": "ROLE_PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 193,
+          "privilegeCode": "MODULE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|READ"
+        },
+        {
+          "privilegeId": 194,
+          "privilegeCode": "AUDIT_LOG|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|READ"
+        },
+        {
+          "privilegeId": 195,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 196,
+          "privilegeCode": "API_KEY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CHECKER"
+        },
+        {
+          "privilegeId": 197,
+          "privilegeCode": "ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 198,
+          "privilegeCode": "BENEFICIARY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CHECKER"
+        },
+        {
+          "privilegeId": 199,
+          "privilegeCode": "USER|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CHECKER"
+        },
+        {
+          "privilegeId": 200,
+          "privilegeCode": "ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 201,
+          "privilegeCode": "USER_ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 202,
+          "privilegeCode": "DISPUTE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CHECKER"
+        },
+        {
+          "privilegeId": 203,
+          "privilegeCode": "DOCUMENT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CHECKER"
+        },
+        {
+          "privilegeId": 204,
+          "privilegeCode": "DOCUMENT_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 205,
+          "privilegeCode": "DIRECTOR|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CHECKER"
+        },
+        {
+          "privilegeId": 206,
+          "privilegeCode": "INDUSTRY_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 207,
+          "privilegeCode": "INVITE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CHECKER"
+        },
+        {
+          "privilegeId": 208,
+          "privilegeCode": "TRANSACTION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CHECKER"
+        },
+        {
+          "privilegeId": 209,
+          "privilegeCode": "CALLBACK|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CHECKER"
+        },
+        {
+          "privilegeId": 210,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 211,
+          "privilegeCode": "USER_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 212,
+          "privilegeCode": "USER_OTP|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CHECKER"
+        },
+        {
+          "privilegeId": 213,
+          "privilegeCode": "LOGIN_HISTORY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CHECKER"
+        },
+        {
+          "privilegeId": 214,
+          "privilegeCode": "PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 215,
+          "privilegeCode": "ROLE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CHECKER"
+        },
+        {
+          "privilegeId": 216,
+          "privilegeCode": "ROLE_PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 217,
+          "privilegeCode": "MODULE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CHECKER"
+        },
+        {
+          "privilegeId": 218,
+          "privilegeCode": "AUDIT_LOG|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CHECKER"
+        },
+        {
+          "privilegeId": 219,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 220,
+          "privilegeCode": "BUSINESS_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 221,
+          "privilegeCode": "BUSINESS_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 222,
+          "privilegeCode": "BUSINESS_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 223,
+          "privilegeCode": "BUSINESS_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 224,
+          "privilegeCode": "BUSINESS_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 225,
+          "privilegeCode": "DIRECTOR_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 226,
+          "privilegeCode": "DIRECTOR_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 227,
+          "privilegeCode": "DIRECTOR_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 228,
+          "privilegeCode": "DIRECTOR_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 229,
+          "privilegeCode": "DIRECTOR_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CHECKER"
+        }
+      ]
+    },
+    {
+      "roleId": 104,
+      "roleName": "CUSTOMER_SUPPORT",
+      "roleDescription": "CUSTOMER_SUPPORT",
+      "roleDeniedPrivilege": [
+        {
+          "privilegeId": 100,
+          "privilegeCode": "API_KEY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CREATE"
+        },
+        {
+          "privilegeId": 101,
+          "privilegeCode": "ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 102,
+          "privilegeCode": "BENEFICIARY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CREATE"
+        },
+        {
+          "privilegeId": 103,
+          "privilegeCode": "USER|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CREATE"
+        },
+        {
+          "privilegeId": 104,
+          "privilegeCode": "ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 105,
+          "privilegeCode": "USER_ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 106,
+          "privilegeCode": "DISPUTE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CREATE"
+        },
+        {
+          "privilegeId": 107,
+          "privilegeCode": "DOCUMENT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CREATE"
+        },
+        {
+          "privilegeId": 108,
+          "privilegeCode": "DOCUMENT_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 109,
+          "privilegeCode": "DIRECTOR|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CREATE"
+        },
+        {
+          "privilegeId": 110,
+          "privilegeCode": "INDUSTRY_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 111,
+          "privilegeCode": "INVITE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CREATE"
+        },
+        {
+          "privilegeId": 112,
+          "privilegeCode": "TRANSACTION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CREATE"
+        },
+        {
+          "privilegeId": 113,
+          "privilegeCode": "CALLBACK|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CREATE"
+        },
+        {
+          "privilegeId": 114,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 115,
+          "privilegeCode": "USER_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 116,
+          "privilegeCode": "USER_OTP|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CREATE"
+        },
+        {
+          "privilegeId": 117,
+          "privilegeCode": "LOGIN_HISTORY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CREATE"
+        },
+        {
+          "privilegeId": 118,
+          "privilegeCode": "PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 119,
+          "privilegeCode": "ROLE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CREATE"
+        },
+        {
+          "privilegeId": 120,
+          "privilegeCode": "ROLE_PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 121,
+          "privilegeCode": "MODULE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CREATE"
+        },
+        {
+          "privilegeId": 122,
+          "privilegeCode": "AUDIT_LOG|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CREATE"
+        },
+        {
+          "privilegeId": 123,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 124,
+          "privilegeCode": "API_KEY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|UPDATE"
+        },
+        {
+          "privilegeId": 125,
+          "privilegeCode": "ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 126,
+          "privilegeCode": "BENEFICIARY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|UPDATE"
+        },
+        {
+          "privilegeId": 127,
+          "privilegeCode": "USER|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|UPDATE"
+        },
+        {
+          "privilegeId": 128,
+          "privilegeCode": "ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 129,
+          "privilegeCode": "USER_ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 130,
+          "privilegeCode": "DISPUTE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|UPDATE"
+        },
+        {
+          "privilegeId": 131,
+          "privilegeCode": "DOCUMENT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|UPDATE"
+        },
+        {
+          "privilegeId": 132,
+          "privilegeCode": "DOCUMENT_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 133,
+          "privilegeCode": "DIRECTOR|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|UPDATE"
+        },
+        {
+          "privilegeId": 134,
+          "privilegeCode": "INDUSTRY_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 135,
+          "privilegeCode": "INVITE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|UPDATE"
+        },
+        {
+          "privilegeId": 136,
+          "privilegeCode": "TRANSACTION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|UPDATE"
+        },
+        {
+          "privilegeId": 137,
+          "privilegeCode": "CALLBACK|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|UPDATE"
+        },
+        {
+          "privilegeId": 138,
+          "privilegeCode": "VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 139,
+          "privilegeCode": "USER_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 140,
+          "privilegeCode": "USER_OTP|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|UPDATE"
+        },
+        {
+          "privilegeId": 141,
+          "privilegeCode": "LOGIN_HISTORY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|UPDATE"
+        },
+        {
+          "privilegeId": 142,
+          "privilegeCode": "PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 143,
+          "privilegeCode": "ROLE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|UPDATE"
+        },
+        {
+          "privilegeId": 144,
+          "privilegeCode": "ROLE_PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 145,
+          "privilegeCode": "MODULE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|UPDATE"
+        },
+        {
+          "privilegeId": 146,
+          "privilegeCode": "AUDIT_LOG|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|UPDATE"
+        },
+        {
+          "privilegeId": 147,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 148,
+          "privilegeCode": "API_KEY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|DELETE"
+        },
+        {
+          "privilegeId": 149,
+          "privilegeCode": "ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 150,
+          "privilegeCode": "BENEFICIARY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|DELETE"
+        },
+        {
+          "privilegeId": 151,
+          "privilegeCode": "USER|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|DELETE"
+        },
+        {
+          "privilegeId": 152,
+          "privilegeCode": "ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 153,
+          "privilegeCode": "USER_ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 154,
+          "privilegeCode": "DISPUTE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|DELETE"
+        },
+        {
+          "privilegeId": 155,
+          "privilegeCode": "DOCUMENT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|DELETE"
+        },
+        {
+          "privilegeId": 156,
+          "privilegeCode": "DOCUMENT_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 157,
+          "privilegeCode": "DIRECTOR|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|DELETE"
+        },
+        {
+          "privilegeId": 158,
+          "privilegeCode": "INDUSTRY_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 159,
+          "privilegeCode": "INVITE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|DELETE"
+        },
+        {
+          "privilegeId": 160,
+          "privilegeCode": "TRANSACTION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|DELETE"
+        },
+        {
+          "privilegeId": 161,
+          "privilegeCode": "CALLBACK|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|DELETE"
+        },
+        {
+          "privilegeId": 162,
+          "privilegeCode": "VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 163,
+          "privilegeCode": "USER_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 164,
+          "privilegeCode": "USER_OTP|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|DELETE"
+        },
+        {
+          "privilegeId": 165,
+          "privilegeCode": "LOGIN_HISTORY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|DELETE"
+        },
+        {
+          "privilegeId": 166,
+          "privilegeCode": "PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 167,
+          "privilegeCode": "ROLE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|DELETE"
+        },
+        {
+          "privilegeId": 168,
+          "privilegeCode": "ROLE_PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 169,
+          "privilegeCode": "MODULE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|DELETE"
+        },
+        {
+          "privilegeId": 170,
+          "privilegeCode": "AUDIT_LOG|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|DELETE"
+        },
+        {
+          "privilegeId": 171,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 172,
+          "privilegeCode": "API_KEY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|READ"
+        },
+        {
+          "privilegeId": 173,
+          "privilegeCode": "ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 174,
+          "privilegeCode": "BENEFICIARY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|READ"
+        },
+        {
+          "privilegeId": 175,
+          "privilegeCode": "USER|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|READ"
+        },
+        {
+          "privilegeId": 176,
+          "privilegeCode": "ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 177,
+          "privilegeCode": "USER_ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 178,
+          "privilegeCode": "DISPUTE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|READ"
+        },
+        {
+          "privilegeId": 179,
+          "privilegeCode": "DOCUMENT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|READ"
+        },
+        {
+          "privilegeId": 180,
+          "privilegeCode": "DOCUMENT_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|READ"
+        },
+        {
+          "privilegeId": 181,
+          "privilegeCode": "DIRECTOR|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|READ"
+        },
+        {
+          "privilegeId": 182,
+          "privilegeCode": "INDUSTRY_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|READ"
+        },
+        {
+          "privilegeId": 183,
+          "privilegeCode": "INVITE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|READ"
+        },
+        {
+          "privilegeId": 184,
+          "privilegeCode": "TRANSACTION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|READ"
+        },
+        {
+          "privilegeId": 185,
+          "privilegeCode": "CALLBACK|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|READ"
+        },
+        {
+          "privilegeId": 186,
+          "privilegeCode": "VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 187,
+          "privilegeCode": "USER_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 188,
+          "privilegeCode": "USER_OTP|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|READ"
+        },
+        {
+          "privilegeId": 189,
+          "privilegeCode": "LOGIN_HISTORY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|READ"
+        },
+        {
+          "privilegeId": 190,
+          "privilegeCode": "PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 191,
+          "privilegeCode": "ROLE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|READ"
+        },
+        {
+          "privilegeId": 192,
+          "privilegeCode": "ROLE_PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 193,
+          "privilegeCode": "MODULE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|READ"
+        },
+        {
+          "privilegeId": 194,
+          "privilegeCode": "AUDIT_LOG|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|READ"
+        },
+        {
+          "privilegeId": 195,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 196,
+          "privilegeCode": "API_KEY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CHECKER"
+        },
+        {
+          "privilegeId": 197,
+          "privilegeCode": "ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 198,
+          "privilegeCode": "BENEFICIARY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CHECKER"
+        },
+        {
+          "privilegeId": 199,
+          "privilegeCode": "USER|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CHECKER"
+        },
+        {
+          "privilegeId": 200,
+          "privilegeCode": "ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 201,
+          "privilegeCode": "USER_ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 202,
+          "privilegeCode": "DISPUTE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CHECKER"
+        },
+        {
+          "privilegeId": 203,
+          "privilegeCode": "DOCUMENT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CHECKER"
+        },
+        {
+          "privilegeId": 204,
+          "privilegeCode": "DOCUMENT_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 205,
+          "privilegeCode": "DIRECTOR|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CHECKER"
+        },
+        {
+          "privilegeId": 206,
+          "privilegeCode": "INDUSTRY_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 207,
+          "privilegeCode": "INVITE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CHECKER"
+        },
+        {
+          "privilegeId": 208,
+          "privilegeCode": "TRANSACTION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CHECKER"
+        },
+        {
+          "privilegeId": 209,
+          "privilegeCode": "CALLBACK|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CHECKER"
+        },
+        {
+          "privilegeId": 210,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 211,
+          "privilegeCode": "USER_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 212,
+          "privilegeCode": "USER_OTP|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CHECKER"
+        },
+        {
+          "privilegeId": 213,
+          "privilegeCode": "LOGIN_HISTORY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CHECKER"
+        },
+        {
+          "privilegeId": 214,
+          "privilegeCode": "PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 215,
+          "privilegeCode": "ROLE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CHECKER"
+        },
+        {
+          "privilegeId": 216,
+          "privilegeCode": "ROLE_PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 217,
+          "privilegeCode": "MODULE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CHECKER"
+        },
+        {
+          "privilegeId": 218,
+          "privilegeCode": "AUDIT_LOG|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CHECKER"
+        },
+        {
+          "privilegeId": 219,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 220,
+          "privilegeCode": "BUSINESS_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 221,
+          "privilegeCode": "BUSINESS_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 222,
+          "privilegeCode": "BUSINESS_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 223,
+          "privilegeCode": "BUSINESS_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 224,
+          "privilegeCode": "BUSINESS_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 225,
+          "privilegeCode": "DIRECTOR_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 226,
+          "privilegeCode": "DIRECTOR_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 227,
+          "privilegeCode": "DIRECTOR_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 228,
+          "privilegeCode": "DIRECTOR_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 229,
+          "privilegeCode": "DIRECTOR_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CHECKER"
+        }
+      ]
+    },
+    {
+      "roleId": 105,
+      "roleName": "SIGNATORY",
+      "roleDescription": "SIGNATORY",
+      "roleDeniedPrivilege": [
+        {
+          "privilegeId": 100,
+          "privilegeCode": "API_KEY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CREATE"
+        },
+        {
+          "privilegeId": 101,
+          "privilegeCode": "ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 102,
+          "privilegeCode": "BENEFICIARY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CREATE"
+        },
+        {
+          "privilegeId": 103,
+          "privilegeCode": "USER|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CREATE"
+        },
+        {
+          "privilegeId": 104,
+          "privilegeCode": "ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 105,
+          "privilegeCode": "USER_ORGANISATION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CREATE"
+        },
+        {
+          "privilegeId": 106,
+          "privilegeCode": "DISPUTE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CREATE"
+        },
+        {
+          "privilegeId": 107,
+          "privilegeCode": "DOCUMENT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CREATE"
+        },
+        {
+          "privilegeId": 108,
+          "privilegeCode": "DOCUMENT_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 109,
+          "privilegeCode": "DIRECTOR|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CREATE"
+        },
+        {
+          "privilegeId": 110,
+          "privilegeCode": "INDUSTRY_TYPE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CREATE"
+        },
+        {
+          "privilegeId": 111,
+          "privilegeCode": "INVITE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CREATE"
+        },
+        {
+          "privilegeId": 112,
+          "privilegeCode": "TRANSACTION|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CREATE"
+        },
+        {
+          "privilegeId": 113,
+          "privilegeCode": "CALLBACK|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CREATE"
+        },
+        {
+          "privilegeId": 114,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 115,
+          "privilegeCode": "USER_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 116,
+          "privilegeCode": "USER_OTP|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CREATE"
+        },
+        {
+          "privilegeId": 117,
+          "privilegeCode": "LOGIN_HISTORY|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CREATE"
+        },
+        {
+          "privilegeId": 118,
+          "privilegeCode": "PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 119,
+          "privilegeCode": "ROLE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CREATE"
+        },
+        {
+          "privilegeId": 120,
+          "privilegeCode": "ROLE_PRIVILEGE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CREATE"
+        },
+        {
+          "privilegeId": 121,
+          "privilegeCode": "MODULE|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CREATE"
+        },
+        {
+          "privilegeId": 122,
+          "privilegeCode": "AUDIT_LOG|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CREATE"
+        },
+        {
+          "privilegeId": 123,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CREATE"
+        },
+        {
+          "privilegeId": 124,
+          "privilegeCode": "API_KEY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|UPDATE"
+        },
+        {
+          "privilegeId": 125,
+          "privilegeCode": "ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 126,
+          "privilegeCode": "BENEFICIARY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|UPDATE"
+        },
+        {
+          "privilegeId": 127,
+          "privilegeCode": "USER|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|UPDATE"
+        },
+        {
+          "privilegeId": 128,
+          "privilegeCode": "ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 129,
+          "privilegeCode": "USER_ORGANISATION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|UPDATE"
+        },
+        {
+          "privilegeId": 130,
+          "privilegeCode": "DISPUTE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|UPDATE"
+        },
+        {
+          "privilegeId": 131,
+          "privilegeCode": "DOCUMENT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|UPDATE"
+        },
+        {
+          "privilegeId": 132,
+          "privilegeCode": "DOCUMENT_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 133,
+          "privilegeCode": "DIRECTOR|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|UPDATE"
+        },
+        {
+          "privilegeId": 134,
+          "privilegeCode": "INDUSTRY_TYPE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|UPDATE"
+        },
+        {
+          "privilegeId": 135,
+          "privilegeCode": "INVITE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|UPDATE"
+        },
+        {
+          "privilegeId": 136,
+          "privilegeCode": "TRANSACTION|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|UPDATE"
+        },
+        {
+          "privilegeId": 137,
+          "privilegeCode": "CALLBACK|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|UPDATE"
+        },
+        {
+          "privilegeId": 138,
+          "privilegeCode": "VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 139,
+          "privilegeCode": "USER_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 140,
+          "privilegeCode": "USER_OTP|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|UPDATE"
+        },
+        {
+          "privilegeId": 141,
+          "privilegeCode": "LOGIN_HISTORY|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|UPDATE"
+        },
+        {
+          "privilegeId": 142,
+          "privilegeCode": "PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 143,
+          "privilegeCode": "ROLE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|UPDATE"
+        },
+        {
+          "privilegeId": 144,
+          "privilegeCode": "ROLE_PRIVILEGE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|UPDATE"
+        },
+        {
+          "privilegeId": 145,
+          "privilegeCode": "MODULE|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|UPDATE"
+        },
+        {
+          "privilegeId": 146,
+          "privilegeCode": "AUDIT_LOG|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|UPDATE"
+        },
+        {
+          "privilegeId": 147,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|UPDATE"
+        },
+        {
+          "privilegeId": 148,
+          "privilegeCode": "API_KEY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|DELETE"
+        },
+        {
+          "privilegeId": 149,
+          "privilegeCode": "ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 150,
+          "privilegeCode": "BENEFICIARY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|DELETE"
+        },
+        {
+          "privilegeId": 151,
+          "privilegeCode": "USER|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|DELETE"
+        },
+        {
+          "privilegeId": 152,
+          "privilegeCode": "ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 153,
+          "privilegeCode": "USER_ORGANISATION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|DELETE"
+        },
+        {
+          "privilegeId": 154,
+          "privilegeCode": "DISPUTE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|DELETE"
+        },
+        {
+          "privilegeId": 155,
+          "privilegeCode": "DOCUMENT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|DELETE"
+        },
+        {
+          "privilegeId": 156,
+          "privilegeCode": "DOCUMENT_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 157,
+          "privilegeCode": "DIRECTOR|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|DELETE"
+        },
+        {
+          "privilegeId": 158,
+          "privilegeCode": "INDUSTRY_TYPE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|DELETE"
+        },
+        {
+          "privilegeId": 159,
+          "privilegeCode": "INVITE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|DELETE"
+        },
+        {
+          "privilegeId": 160,
+          "privilegeCode": "TRANSACTION|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|DELETE"
+        },
+        {
+          "privilegeId": 161,
+          "privilegeCode": "CALLBACK|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|DELETE"
+        },
+        {
+          "privilegeId": 162,
+          "privilegeCode": "VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 163,
+          "privilegeCode": "USER_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 164,
+          "privilegeCode": "USER_OTP|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|DELETE"
+        },
+        {
+          "privilegeId": 165,
+          "privilegeCode": "LOGIN_HISTORY|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|DELETE"
+        },
+        {
+          "privilegeId": 166,
+          "privilegeCode": "PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 167,
+          "privilegeCode": "ROLE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|DELETE"
+        },
+        {
+          "privilegeId": 168,
+          "privilegeCode": "ROLE_PRIVILEGE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|DELETE"
+        },
+        {
+          "privilegeId": 169,
+          "privilegeCode": "MODULE|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|DELETE"
+        },
+        {
+          "privilegeId": 170,
+          "privilegeCode": "AUDIT_LOG|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|DELETE"
+        },
+        {
+          "privilegeId": 171,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|DELETE"
+        },
+        {
+          "privilegeId": 172,
+          "privilegeCode": "API_KEY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|READ"
+        },
+        {
+          "privilegeId": 173,
+          "privilegeCode": "ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 174,
+          "privilegeCode": "BENEFICIARY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|READ"
+        },
+        {
+          "privilegeId": 175,
+          "privilegeCode": "USER|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|READ"
+        },
+        {
+          "privilegeId": 176,
+          "privilegeCode": "ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 177,
+          "privilegeCode": "USER_ORGANISATION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|READ"
+        },
+        {
+          "privilegeId": 178,
+          "privilegeCode": "DISPUTE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|READ"
+        },
+        {
+          "privilegeId": 179,
+          "privilegeCode": "DOCUMENT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|READ"
+        },
+        {
+          "privilegeId": 180,
+          "privilegeCode": "DOCUMENT_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|READ"
+        },
+        {
+          "privilegeId": 181,
+          "privilegeCode": "DIRECTOR|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|READ"
+        },
+        {
+          "privilegeId": 182,
+          "privilegeCode": "INDUSTRY_TYPE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|READ"
+        },
+        {
+          "privilegeId": 183,
+          "privilegeCode": "INVITE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|READ"
+        },
+        {
+          "privilegeId": 184,
+          "privilegeCode": "TRANSACTION|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|READ"
+        },
+        {
+          "privilegeId": 185,
+          "privilegeCode": "CALLBACK|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|READ"
+        },
+        {
+          "privilegeId": 186,
+          "privilegeCode": "VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 187,
+          "privilegeCode": "USER_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 188,
+          "privilegeCode": "USER_OTP|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|READ"
+        },
+        {
+          "privilegeId": 189,
+          "privilegeCode": "LOGIN_HISTORY|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|READ"
+        },
+        {
+          "privilegeId": 190,
+          "privilegeCode": "PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 191,
+          "privilegeCode": "ROLE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|READ"
+        },
+        {
+          "privilegeId": 192,
+          "privilegeCode": "ROLE_PRIVILEGE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|READ"
+        },
+        {
+          "privilegeId": 193,
+          "privilegeCode": "MODULE|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|READ"
+        },
+        {
+          "privilegeId": 194,
+          "privilegeCode": "AUDIT_LOG|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|READ"
+        },
+        {
+          "privilegeId": 195,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|READ"
+        },
+        {
+          "privilegeId": 196,
+          "privilegeCode": "API_KEY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "API_KEY",
+          "privilegeDescription": "API_KEY|CHECKER"
+        },
+        {
+          "privilegeId": 197,
+          "privilegeCode": "ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ACCOUNT",
+          "privilegeDescription": "ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 198,
+          "privilegeCode": "BENEFICIARY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BENEFICIARY",
+          "privilegeDescription": "BENEFICIARY|CHECKER"
+        },
+        {
+          "privilegeId": 199,
+          "privilegeCode": "USER|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER",
+          "privilegeDescription": "USER|CHECKER"
+        },
+        {
+          "privilegeId": 200,
+          "privilegeCode": "ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ORGANISATION",
+          "privilegeDescription": "ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 201,
+          "privilegeCode": "USER_ORGANISATION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ORGANISATION",
+          "privilegeDescription": "USER_ORGANISATION|CHECKER"
+        },
+        {
+          "privilegeId": 202,
+          "privilegeCode": "DISPUTE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DISPUTE",
+          "privilegeDescription": "DISPUTE|CHECKER"
+        },
+        {
+          "privilegeId": 203,
+          "privilegeCode": "DOCUMENT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT",
+          "privilegeDescription": "DOCUMENT|CHECKER"
+        },
+        {
+          "privilegeId": 204,
+          "privilegeCode": "DOCUMENT_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DOCUMENT_TYPE",
+          "privilegeDescription": "DOCUMENT_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 205,
+          "privilegeCode": "DIRECTOR|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR",
+          "privilegeDescription": "DIRECTOR|CHECKER"
+        },
+        {
+          "privilegeId": 206,
+          "privilegeCode": "INDUSTRY_TYPE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INDUSTRY_TYPE",
+          "privilegeDescription": "INDUSTRY_TYPE|CHECKER"
+        },
+        {
+          "privilegeId": 207,
+          "privilegeCode": "INVITE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "INVITE",
+          "privilegeDescription": "INVITE|CHECKER"
+        },
+        {
+          "privilegeId": 208,
+          "privilegeCode": "TRANSACTION|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "TRANSACTION",
+          "privilegeDescription": "TRANSACTION|CHECKER"
+        },
+        {
+          "privilegeId": 209,
+          "privilegeCode": "CALLBACK|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "CALLBACK",
+          "privilegeDescription": "CALLBACK|CHECKER"
+        },
+        {
+          "privilegeId": 210,
+          "privilegeCode": "VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "VIRTUAL_ACCOUNT",
+          "privilegeDescription": "VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 211,
+          "privilegeCode": "USER_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_ADDRESS",
+          "privilegeDescription": "USER_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 212,
+          "privilegeCode": "USER_OTP|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "USER_OTP",
+          "privilegeDescription": "USER_OTP|CHECKER"
+        },
+        {
+          "privilegeId": 213,
+          "privilegeCode": "LOGIN_HISTORY|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "LOGIN_HISTORY",
+          "privilegeDescription": "LOGIN_HISTORY|CHECKER"
+        },
+        {
+          "privilegeId": 214,
+          "privilegeCode": "PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "PRIVILEGE",
+          "privilegeDescription": "PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 215,
+          "privilegeCode": "ROLE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE",
+          "privilegeDescription": "ROLE|CHECKER"
+        },
+        {
+          "privilegeId": 216,
+          "privilegeCode": "ROLE_PRIVILEGE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "ROLE_PRIVILEGE",
+          "privilegeDescription": "ROLE_PRIVILEGE|CHECKER"
+        },
+        {
+          "privilegeId": 217,
+          "privilegeCode": "MODULE|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "MODULE",
+          "privilegeDescription": "MODULE|CHECKER"
+        },
+        {
+          "privilegeId": 218,
+          "privilegeCode": "AUDIT_LOG|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "AUDIT_LOG",
+          "privilegeDescription": "AUDIT_LOG|CHECKER"
+        },
+        {
+          "privilegeId": 219,
+          "privilegeCode": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "SECONDARY_VIRTUAL_ACCOUNT",
+          "privilegeDescription": "SECONDARY_VIRTUAL_ACCOUNT|CHECKER"
+        },
+        {
+          "privilegeId": 220,
+          "privilegeCode": "BUSINESS_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 221,
+          "privilegeCode": "BUSINESS_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 222,
+          "privilegeCode": "BUSINESS_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 223,
+          "privilegeCode": "BUSINESS_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 224,
+          "privilegeCode": "BUSINESS_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "BUSINESS_ADDRESS",
+          "privilegeDescription": "BUSINESS_ADDRESS|CHECKER"
+        },
+        {
+          "privilegeId": 225,
+          "privilegeCode": "DIRECTOR_ADDRESS|CREATE",
+          "privilegeName": "CREATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CREATE"
+        },
+        {
+          "privilegeId": 226,
+          "privilegeCode": "DIRECTOR_ADDRESS|UPDATE",
+          "privilegeName": "UPDATE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|UPDATE"
+        },
+        {
+          "privilegeId": 227,
+          "privilegeCode": "DIRECTOR_ADDRESS|DELETE",
+          "privilegeName": "DELETE",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|DELETE"
+        },
+        {
+          "privilegeId": 228,
+          "privilegeCode": "DIRECTOR_ADDRESS|READ",
+          "privilegeName": "READ",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|READ"
+        },
+        {
+          "privilegeId": 229,
+          "privilegeCode": "DIRECTOR_ADDRESS|CHECKER",
+          "privilegeName": "CHECKER",
+          "privilegeModuleName": "DIRECTOR_ADDRESS",
+          "privilegeDescription": "DIRECTOR_ADDRESS|CHECKER"
+        }
+      ]
+    }
+  ]
+}

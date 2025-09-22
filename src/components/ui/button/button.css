@@ -1,0 +1,130 @@
+
+.button {
+    text-align: center;
+    border-radius: 12px;
+    /*justify-content: center;*/
+    align-items: center;
+    padding: 1em 1.5em;
+    font-size: .875rem;
+    line-height: 1;
+    text-decoration: none;
+    display: flex;
+    border: 0;
+    cursor: pointer;
+    /*width: max-content;*/
+}
+
+
+.button.is-link {
+    color: var(--base-color-neutral--black);
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    padding: .25rem 0;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.button.is-link.is-alternate {
+    color: var(--base-color-neutral--white);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.button.is-link.is-icon {
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+}
+
+.button.is-icon {
+    grid-column-gap: .75rem;
+    grid-row-gap: .75rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.button.is-primary {
+    border: 1px solid var(--gray--5);
+    background-color: var(--gray--5);
+    color: var(--gray--1);
+}
+
+.button.is-primary:hover {
+    background-color: var(--gray--4);
+}
+
+.button.is-secondary {
+    border-color: var(--gray--2);
+    background-color: var(--gray--2);
+    color: var(--gray--4);
+}
+
+.button.is-secondary:hover {
+    background-color: var(--gray--1);
+}
+
+.button.is-secondary.is-alternate {
+    color: var(--base-color-neutral--white);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.button.is-secondary.is-small {
+    /*height: 36px;*/
+}
+
+.button.is-secondary.is-small.support {
+    width: 200px;
+}
+
+.button.is-secondary.is-icon.is-small.back {
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    padding: 0;
+}
+
+.wbutton.is-small {
+    /*height: 36px;*/
+    /*padding: 1rem 1.5rem;*/
+    padding: .7rem 1.25rem;
+}
+
+.button.is-x-small {
+    /*height: 36px;*/
+    /*padding: 1rem 1.5rem;*/
+    padding: .5rem .75rem;
+}
+
+.button.is-small.is-icon.wide {
+    width: 100%;
+}
+
+.button.is-small.is-icon-only {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.button.is-alternate {
+    border-color: var(--base-color-neutral--white);
+    background-color: var(--base-color-neutral--white);
+    color: var(--base-color-neutral--black);
+}
+
+.button.is-tertiary {
+    color: var(--base-color-neutral--black);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.button.is-tertiary:hover {
+    background-color: var(--gray--2);
+}
+
+.button.is-icon-only {
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.baseButton {
+    gap: 5px;
+    align-items: center;
+}

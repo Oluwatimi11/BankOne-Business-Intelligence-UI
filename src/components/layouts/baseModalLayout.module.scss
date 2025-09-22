@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-white);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  background-color: inherit;
+  border-bottom: 1px solid var(--gray--2);
+  padding: 1rem;
+  //align-items: center;
+}
+
+.headerText {
+  //flex: 1;
+  min-width: 0; // Prevents overflow issues
+}
+
+.subtitle {
+  //margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--color-gray-600);
+}
+
+.content {
+  width: 100%;
+  flex: 1; // Takes remaining space
+  //border: 1px solid red;
+  //background-color: red;
+  overflow-y: auto;
+  position: relative;
+}
+
+.footer {
+  //padding: 1rem;
+  border-top: 1px solid var(--gray--2);
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  align-items: center;
+}

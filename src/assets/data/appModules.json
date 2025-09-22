@@ -1,0 +1,20 @@
+[
+  {
+    "moduleName": "Banking",
+    "moduleItems": [
+      {
+        "title": "Create Bank",
+        "tabRoute": ""
+      }
+    ]
+  },
+  {
+    "moduleName": "Food",
+    "moduleItems": [
+      {
+        "title": "Create Food",
+        "tabRoute": ""
+      }
+    ]
+  }
+]

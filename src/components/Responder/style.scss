@@ -1,0 +1,30 @@
+@import 'src/index.scss';
+
+.display-box-container {
+    //min-height: 42.6rem !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E2E8F0;
+
+    @media (max-width: 690px) {
+        width: 80% !important;
+    }
+
+    @media (max-width: 490px) {
+        width: 90% !important;
+    }
+}
+
+.display-box-content {
+    @media (max-width: 690px) {
+        width: 100% !important;
+    }
+}
+
+.display-box-text-wrapper {
+    @media (max-width: 410px) {
+        width: 100% !important;
+    }
+}

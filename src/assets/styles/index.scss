@@ -1,0 +1,67 @@
+@use '@/assets/styles/css-vars';
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Gilmer";
+  src: url("@/assets/fonts/Gilmer/gilmerLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilmer";
+  src: url("@/assets/fonts/gilmer/gilmerRegular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilmer";
+  src: url("@/assets/fonts/gilmer/gilmerMedium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Gilmer";
+  src: url("@/assets/fonts/gilmer/gilmerBold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilmer";
+  src: url("@/assets/fonts/gilmer/gilmerHeavy.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-weight: 400;
+  font-family: "Gilmer", sans-serif;
+  --font-family: "Gilmer", sans-serif;
+  //font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  //color-scheme: light dark;
+  //color: rgba(255, 255, 255, 0.87);
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+}

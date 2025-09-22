@@ -1,0 +1,17 @@
+@import 'src/index.scss';
+
+.netflow-wrapper {
+    // background: linear-gradient(to left, 
+    //     transparent 0%, /* Fully transparent at the right edge. */
+    //     #E5EDE2 20%, /* Gradually transitions to #E5EDE2 at 20% of the width */
+    //     #E5EDE2 40%, /* Stays fully #E5EDE2 until 40% of the width */
+    //     transparent 60% /* Gradually transitions to transparent at 60% of the width */
+    // )
+    background: linear-gradient(to left, 
+        transparent 0%,
+        rgba(248, 250, 246, 0.95) 10%,  
+        rgba(229, 237, 226, 0.95) 40%,
+        transparent 60%
+    );
+    backdrop-filter: blur(10px);
+}

@@ -1,0 +1,96 @@
+@import "src/index.scss";
+
+.account-stats-container {}
+
+.account-stats-1 {
+    width: 23% !important;
+
+    @media (max-width: 1715px) {
+        width: 49% !important;
+    }
+
+    @media (max-width: 1231px) {
+        width: 100% !important;
+    }
+}
+
+.account-stats-2 {
+    width: 41.3% !important;
+
+    @media (max-width: 1715px) {
+        width: 49% !important;
+    }
+
+    @media (max-width: 1231px) {
+        width: 100% !important;
+    }
+}
+
+.account-stats-3 {
+    width: 33% !important;
+
+    @media (max-width: 1715px) {
+        width: 49% !important;
+    }
+
+    @media (max-width: 1231px) {
+        width: 100% !important;
+    }
+}
+
+.account-stats-4 {
+    width: 40% !important;
+
+    @media (max-width: 1715px) {
+        width: 49% !important;
+    }
+
+    @media (max-width: 1231px) {
+        width: 100% !important;
+    }
+}
+
+.account-stats-5 {
+    width: 25% !important;
+
+    @media (max-width: 1715px) {
+        width: 49% !important;
+    }
+
+    @media (max-width: 1231px) {
+        width: 100% !important;
+    }
+}
+
+.account-stats-6 {
+    width: 32% !important;
+
+    @media (max-width: 1715px) {
+        width: 49% !important;
+    }
+
+    @media (max-width: 1231px) {
+        width: 100% !important;
+    }
+}
+
+.account-stats-6-child {}
+
+.total-balance-chart-legend {
+    width: -webkit-calc(100% - 18rem) !important;
+    width: -moz-calc(100% - 18rem) !important;
+    width: calc(100% - 18rem) !important;
+
+    @media (max-width: 480px) {
+        width: 100% !important;
+        justify-content: center !important;
+
+    }
+}
+
+.number-of-account-by-product {
+    @media (max-width: 480px) {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}

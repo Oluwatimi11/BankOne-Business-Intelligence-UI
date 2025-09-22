@@ -1,0 +1,99 @@
+@import 'src/index.scss';
+
+.networth-container {
+    @media (max-width: 400px) {
+        p {
+            font-size: 3rem !important;
+        }
+        span {
+            font-size: 2rem !important;
+        }
+    }
+}
+
+.horizontal-scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none
+    }
+}
+
+.statistics-card {
+    width: 24% !important;
+    display: inline-block !important;
+
+    @media (max-width: 1520px) {
+        width: 32rem !important;
+    }
+}
+
+.dashboard-chart-stats-container {
+    @media (max-width: 1415px) {
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+    }
+}
+
+.dashboard-chart-stats-1 {
+    width: 35.4% !important;
+
+    @media (max-width: 1415px) {
+        width: 53% !important;
+    }
+
+    @media (max-width: 1231px) {
+        width: 53% !important;
+    }
+
+    @media (max-width: 610px) {
+        width: 100% !important;
+    }
+}
+.dashboard-chart-stats-2 {
+    width: 27.47% !important;
+
+    @media (max-width: 1415px) {
+        width: 45% !important;
+    }
+    @media (max-width: 1231px) {
+        width: 44% !important;
+    }
+    @media (max-width: 610px) {
+        width: 100% !important;
+    }
+}
+
+.dashboard-chart-stats-3 {
+    width: 37.1% !important;
+
+    @media (max-width: 1415px) {
+        width: 100% !important;
+    }
+}
+
+.dashboard-chart-stats-3-child-flex {
+    @media (max-width: 600px) {
+        flex-wrap: wrap !important;
+    }
+}
+
+.dashboard-chart-stats-3-child {
+    @media (max-width: 1415px) {
+        height: 22rem !important;
+    }
+
+    @media (max-width: 600px) {
+        width: 100% !important;
+    }
+}
+
+.deposit-chart {
+    height: -webkit-calc(100% - 7.5rem) !important;
+    height: -moz-calc(100% - 7.5rem) !important;
+    height: calc(100% - 7.5rem) !important;
+}

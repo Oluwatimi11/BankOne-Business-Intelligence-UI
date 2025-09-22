@@ -1,0 +1,25 @@
+@import 'src/index.scss';
+
+.profit_loss-toggler-container {
+    @media (max-width: 440px) {
+        width: 100% !important;
+    }
+}
+
+.profitability-chart-container {
+    @media (max-width: 700px) {
+        flex-wrap: wrap !important;
+    }
+}
+
+.profitability-chart {
+    @media (max-width: 700px) {
+        width: 100% !important;
+    }
+}
+
+.income-doughnut-cards {
+    @media (max-width: 1300px) {
+        width: 100% !important;
+    }
+}

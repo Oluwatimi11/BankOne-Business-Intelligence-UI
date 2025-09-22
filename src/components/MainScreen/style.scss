@@ -1,0 +1,50 @@
+@import 'src/index.scss';
+
+.login-content-container {
+   @media (max-width: 880px) {
+    
+   }
+}
+
+.app-description-container {
+    @media (max-width: 880px) {
+        display: none !important;
+    }
+}
+
+.app-description {
+    @media (max-width: 1300px) {
+        width: 80% !important;
+    }
+}
+
+.login-form-container {
+    @media (max-width: 880px) {
+        width: 100% !important;
+        align-items: center !important;;
+    }
+}
+
+.login-form-content-container {
+    @media (max-width: 1300px) {
+        width: 90% !important;
+    }
+    @media (max-width: 1000px) {
+        width: 100% !important;
+    }
+    @media (max-width: 880px) {
+        width: 61.3rem !important;
+    }
+    @media (max-width: 700px) {
+        width: 80% !important;
+    }
+    @media (max-width: 500px) {
+        width: 90% !important;
+        padding: 5rem !important;
+    }
+    @media (max-width: 390px) {
+        width: 100% !important;
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+}

@@ -1,0 +1,135 @@
+// ======== BASE UNITS ======== //
+$base-font-size: 16px;
+$rem-base: $base-font-size;
+
+// ======== COLOR PALETTE ======== //
+// Primary Colors
+$color-primary-500: #48A29C;
+$color-primary-400: #A4CABB;
+$color-primary-300: #C6E1D4;
+$color-primary-200: #EBF4EF;
+$color-primary-100: #E7FEFD;
+
+// Flex Colors
+$color-flex-700: #1A2B35;
+$color-flex-500: #F1F0BD;
+$color-flex-300: #F8D753;
+
+// Status Colors
+$color-error: #E71D36;
+$color-warning: #FFB800;
+$color-success: #3C8505;
+
+// Greyscale
+$color-grey-900: #1A1A1A;
+$color-grey-700: #767676;
+$color-grey-300: #E0E0E0;
+$color-grey-100: #F9F9F9;
+$color-white: #FFFFFF;
+
+// Other Colors
+$color-other-1: #0E4915;
+$color-other-2: #FFFFED;
+$color-other-3: #C8CBD2;
+$color-other-4: #FAFAFA;
+
+// ======== TYPOGRAPHY ======== //
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+$font-size-12: 0.75rem;
+$font-size-13: 0.8125rem;
+$font-size-14: 0.875rem;
+
+// ======== ELEVATION ======== //
+$elevation-1: 0 1px 2px rgba(0, 0, 0, 0.16);
+$elevation-2: 0 2px 4px rgba(0, 0, 0, 0.24);
+$elevation-3: 0 4px 8px rgba(0, 0, 0, 0.16);
+$elevation-4: 0 8px 16px rgba(0, 0, 0, 0.12);
+$elevation-5: 0 16px 24px rgba(0, 0, 0, 0.12);
+
+
+//// ========== BASE UNITS ========== //
+//$base-font-px: 16; // 1rem = 16px
+//@function rem($px) { @return calc($px / $base-font-px) * 1rem; }
+//
+//// ========== TYPOGRAPHY ========== //
+//$font-weights: (
+//        regular: 400,
+//        medium: 500
+//);
+//
+//$font-sizes: (
+//        size12: rem(12),  // 0.75rem
+//        size13: rem(13),  // 0.8125rem
+//        size14: rem(14)   // 0.875rem
+//);
+//
+//$type-scale: (
+//        body: map-get($font-sizes, size12),
+//        textfield: map-get($font-sizes, size12),
+//        menu: map-get($font-sizes, size13),
+//        body-title: map-get($font-sizes, size13),
+//        button: map-get($font-sizes, size13),
+//        tab-title: map-get($font-sizes, size14),
+//        title: map-get($font-sizes, size14),
+//        notification-tag: map-get($font-sizes, size13)
+//);
+//
+//// ========== ELEVATION ========== //
+//$elevations: (
+//        1: (
+//                        (0 1px 2px rgba(0, 0, 0, 0.16)),
+//                        (0 2px 4px rgba(0, 0, 0, 0.24)),
+//                        (0 4px 8px rgba(0, 0, 0, 0.16))
+//        )
+//);
+//
+//// ========== COLOR PALETTE ========== //
+//$colors: (
+//        primary: (
+//                500: #48A29C,
+//                400: #A4CABB,
+//                300: #C6E1D4,
+//                200: #EBF4EF,
+//                100: #E7FEFD
+//        ),
+//        flex: (
+//                700: #1A2B35,
+//                500: #F1F0BD,
+//                300: #F8D753
+//        ),
+//        status: (
+//                error: #E71D36,
+//                warning: #E71D36,
+//                success: #3C8505
+//        ),
+//        greyscale: (
+//                primary-text: #1A1A1A,
+//                secondary-text: #767676,
+//                lines: #E0E0E0,
+//                background: #F9F9F9,
+//                white: #FFFFFF
+//        )
+//);
+
+
+//// Primary Colors
+//$color-primary-500: #48A29C;
+//$color-primary-400: #A4CABB;
+//$color-primary-300: #C6E1D4;
+//$color-primary-200: #EBF4EF;
+//$color-primary-100: #E7FEFD;
+//
+//// Flex Colors
+//$color-flex-700: #1A2B35;
+//$color-flex-500: #F1F0BD;
+//$color-flex-300: #F8D753;
+//
+//// Typography
+//$font-weight-regular: 400;
+//$font-weight-medium: 500;
+//
+//$font-size-body: .75rem;
+//$font-size-title: .875rem;

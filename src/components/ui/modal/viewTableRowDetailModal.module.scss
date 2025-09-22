@@ -1,0 +1,35 @@
+.modalLayout {
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.modalTitle {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+}
+
+.modalHeader {
+  align-items: center;
+  padding: 0;
+  border: 0;
+  position: relative;
+}
+
+.modalContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.actionButtons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}

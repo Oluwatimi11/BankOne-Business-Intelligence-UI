@@ -1,0 +1,19 @@
+@import "src/index.scss";
+
+.total-deposit-card {
+    width: 78% !important;
+    //display: inline-block !important;
+
+    @media (max-width: 1500px) {
+        width: 102.4rem !important;
+    }
+}
+
+.active-deposit-card {
+    width: 21.8% !important;
+    //display: inline-block !important;
+
+    @media (max-width: 1500px) {
+        width: 28.6rem !important;
+    }
+}

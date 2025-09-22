@@ -1,0 +1,39 @@
+@import 'src/index.scss';
+
+.fin-indicators-item {
+    @media (max-width: 900px) {
+        width: 48% !important;
+    }
+
+    @media (max-width: 550px) {
+        width: 100% !important;
+    }
+}
+
+.indicator-popup-container {
+    @media (max-width: 650px) {
+        width: 85% !important;
+    }
+    @media (max-width: 350px) {
+        width: 90% !important;
+    }
+}
+
+.info-view-nav-wrap {
+    width: 100%;
+    overflow-x: auto;
+    overflow: auto !important;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none
+    }
+}
+
+.indicator-summary-container {
+    @media (max-width: 920px) {
+        width: 100% !important;
+    }
+}
